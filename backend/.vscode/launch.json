@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: setup_db",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/testcase/app.py",
+            "console": "integratedTerminal",
+            "args": ["--setup_db", "--reload"],
+            "justMyCode": true
+        },
+        {
+            "name": "Python: run_app",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/testcase/app.py",
+            "console": "integratedTerminal",
+            "args": ["--reload"],
+            "justMyCode": true
+        }
+    ]
+}
